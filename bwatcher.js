@@ -1,4 +1,6 @@
-const fs = require("fs");
+#!/usr/bin/env node
+
+const fs = require('fs');
 const hound = require('hound');
 const bracketcss = require("bracketcss");
 
