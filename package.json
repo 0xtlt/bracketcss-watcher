@@ -1,0 +1,26 @@
+{
+  "name": "bracketcss-watcher",
+  "version": "0.1.0",
+  "description": "Generate automatically css file from bcss",
+  "main": "bwatcher.js",
+  "scripts": {
+    "test": "node ./bwatcher.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomasT404/bracketcss-watcher.git"
+  },
+  "author": "Thomas Tastet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ThomasT404/bracketcss-watcher/issues"
+  },
+  "homepage": "https://github.com/ThomasT404/bracketcss-watcher#readme",
+  "dependencies": {
+    "bracketcss": "^0.1.0",
+    "hound": "^1.0.5"
+  },
+  "bin": {
+    "bwatcher": "./bwatcher.js"
+  }
+}
