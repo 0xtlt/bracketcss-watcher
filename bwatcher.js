@@ -8,15 +8,20 @@ function transpile_file(file, dist) {
     fs.readFile(file, function(err, buf) {
         let css = bracketcss(buf.toString());
 
-        fs.writeFile(dist, css, (err) => {
-            if (err) console.log(err);
-        });
+        if(typeof css === "string"){
+            fs.writeFile(dist, css, (err) => {
+                if (err) console.log(err);
+            });
+        } else {
+            console.error("bracketcss watcher cannot generate css file");
+        }
     });
 }
 
 function watchFolder(folder, extb = ".bcss", distFolder) {
-    const watcher = hound.watch(folder)
+    console.log("bracketcss watcher is watching");
 
+    const watcher = hound.watch(folder);
     watcher.on('change', function(file, stats) {
         let fileParts = file.split(".");
         let ext = fileParts[fileParts.length-1];
