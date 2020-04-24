@@ -1,6 +1,6 @@
 {
   "name": "bracketcss-watcher",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Generate automatically css file from bcss",
   "main": "bwatcher.js",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/ThomasT404/bracketcss-watcher#readme",
   "dependencies": {
-    "bracketcss": "^0.3.1",
+    "bracketcss": "^0.3.4",
     "fs": "0.0.1-security",
     "hound": "^1.0.5"
   },

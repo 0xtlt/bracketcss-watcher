@@ -1,3 +1,6 @@
+## 0.3.2
+- support : BracketCSS 0.3.4
+
 ## 0.3.1
 - edit : package.json keywords
 
