@@ -1,3 +1,7 @@
+## 0.5.0
+
+- support : BracketCSS 0.5.0
+
 ## 0.4.1
 
 - support : BracketCSS 0.4.1
